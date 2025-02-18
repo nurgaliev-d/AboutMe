@@ -78,7 +78,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             make.top.equalTo(nameLabel.snp.bottom).offset(30)
                     make.centerX.equalToSuperview()
                     make.width.equalToSuperview().multipliedBy(0.9)
-                    make.height.equalTo(300)
+            make.bottom.equalToSuperview().inset(30)
                 }
     }
     
